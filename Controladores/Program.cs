@@ -19,7 +19,7 @@ namespace ExpresionRaiz.Controladores
             raizCuadrada = Convert.ToInt32(oi.CalcularRaizCuadrada(numeroEnt));
 
 
-            if (raizCuadrada * raizCuadrada == raizCuadrada * raizCuadrada)
+            if (raizCuadrada == numeroEnt * numeroEnt)
             
             {
                 Console.WriteLine($"El número {numeroEnt} se puede expresar como el cuadrado de {raizCuadrada}");
